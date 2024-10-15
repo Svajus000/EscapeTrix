@@ -1,0 +1,23 @@
+.howtoplay__section {
+  display: flex;
+  height: 93%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.howtoplay__container {
+  height: 40rem;
+  width: 40rem;
+  background-color: white;
+  padding: 2rem;
+}
+
+.howtoplay__text {
+  font-size: 2.75rem;
+}
+
+.howtoplay__explanation {
+  font-size: 1.5rem;
+  padding: 2rem 0rem;
+}

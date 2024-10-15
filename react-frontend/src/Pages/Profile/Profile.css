@@ -1,0 +1,108 @@
+.profile {
+  display: flex;
+  height: 93vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile__section {
+  height: 100%;
+  width: 55%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.subheader__text--title {
+  font-size: 2.5rem;
+  text-align: start;
+  margin-top: 1.25rem;
+  margin-left: 4rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  height: 20%;
+  width: 100%;
+  margin-top: 7rem;
+}
+.grid__item--1 {
+  height: 10rem;
+}
+
+.grid__item--2 {
+  height: 2px;
+  margin-bottom: 6rem;
+}
+
+.grid__item--3 {
+  margin-top: 1.5rem;
+}
+
+.grid__line {
+  width: 80%;
+  margin-left: 4rem;
+}
+
+.profile__image {
+  height: 150px;
+  width: 150px;
+  background-image: url("../../public/userProfileImages/59077.png");
+}
+
+.profile__line {
+  width: 85%;
+  margin-left: 4rem;
+  margin-top: 5rem;
+}
+
+.profile__line--marginTop {
+  margin-top: 1.5rem;
+}
+
+.profile__container {
+  height: 5rem;
+  width: 100%;
+}
+
+.profile__container--marginTop {
+  margin-top: 3.75rem;
+}
+
+.profile__container .profile__header {
+  margin-left: 4rem;
+  color: white;
+  font-size: 2.5rem;
+}
+
+.profile__username,
+.profile__email {
+  margin-top: 0.5rem;
+  margin-left: 4rem;
+  color: white;
+  font-size: 2rem;
+}
+
+.profile-flex {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin-top: 1rem;
+}
+
+.subheader__text--smaller {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.profile__flexContainer {
+  width: 20rem;
+  margin-top: 1rem;
+}
+
+.history__item {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}

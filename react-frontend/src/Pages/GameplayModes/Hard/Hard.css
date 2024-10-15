@@ -1,0 +1,39 @@
+.hard {
+  background-image: url("../../img/matrix_section_1.png");
+}
+
+.hard-1 {
+  background-image: url("../../img/1920x1080/matrix_section_2.png");
+  height: 93vh;
+  margin-top: 5rem;
+}
+
+.hard-2 {
+  background-image: url("../../img/1920x1080/matrix_section_3.png");
+  height: 93vh;
+  margin-top: 5rem;
+}
+
+.hard-3 {
+  background-image: url("../../img/1920x1080/matrix_section_4.png");
+  height: 93vh;
+  margin-top: 5rem;
+}
+
+.hard__main {
+  background-image: url("../../img/1920x1080/hello5.jpg");
+}
+
+.hard--1 {
+  background-image: url("../../img/1920x1080/love.jpg");
+  width: 40rem;
+  background-size: contain;
+}
+
+.hard--2 {
+  background-image: url("../../img/1920x1080/hello2.jpg");
+}
+
+.hard--3 {
+  background-image: url("../../img/1920x1080/hello3.jpg");
+}

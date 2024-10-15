@@ -1,0 +1,31 @@
+.answer {
+  position: relative;
+}
+
+.quiz-form {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin: 3.75rem;
+  margin-left: 6.75rem;
+}
+
+.quiz-label {
+  color: white;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.quiz-input {
+  height: 3rem;
+  width: 100%;
+  font-size: 1.75rem;
+  padding-left: 0.5rem;
+}
+
+.quiz-button {
+  height: 2.75rem;
+  width: 50%;
+  margin-top: 1.75rem;
+  font-size: 1.25rem;
+}

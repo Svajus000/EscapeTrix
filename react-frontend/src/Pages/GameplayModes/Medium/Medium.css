@@ -1,0 +1,46 @@
+.medium {
+  background-image: url("../../img/matrix_section_1.png");
+  height: 93vh;
+}
+
+.medium-1 {
+  background-image: url("../../img/1920x1080/matrix_section_2.png");
+  height: 93vh;
+  margin-top: 5rem;
+}
+
+.medium-2 {
+  background-image: url("../../img/1920x1080/matrix_section_3.png");
+  height: 93vh;
+  margin-top: 5rem;
+}
+
+.medium-3 {
+  background-image: url("../../img/1920x1080/matrix_section_4.png");
+  height: 93vh;
+  margin-top: 5rem;
+}
+
+.main__image {
+  display: block;
+  height: 55%;
+  width: 50%;
+  margin-top: 12rem;
+  margin-left: 10rem;
+  align-self: center;
+  background-image: url("../../img/1920x1080/hello.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.medium--1 {
+  background-image: url("../../img/1920x1080/hello1.jpg");
+}
+
+.medium--2 {
+  background-image: url("../../img/1920x1080/hello2.jpg");
+}
+
+.medium--3 {
+  background-image: url("../../img/1920x1080/hello3.jpg");
+}

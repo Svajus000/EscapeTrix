@@ -1,0 +1,92 @@
+.main__section {
+  display: flex;
+  height: 93%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 43rem;
+  width: 30rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.signin__form {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  padding-top: 1rem;
+}
+
+.header__container {
+  padding: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+.header--medium {
+  font-size: 2.5rem;
+}
+
+.form__field {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.form__label {
+  margin-top: 1.75rem;
+  font-size: 1.5rem;
+}
+
+.form__label:first-child {
+  margin-top: 0rem;
+}
+
+.form__input {
+  height: 2.5rem;
+  width: 88%;
+
+  font-size: 1.5rem;
+  padding: 0.25rem;
+  padding-left: 2.5rem;
+  border-radius: 0.5rem;
+  margin-top: 0.25rem;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.form__button {
+  height: 2.75rem;
+  margin-top: 1.75rem;
+  font-size: 1.25rem;
+}
+
+.email {
+  position: relative;
+  background-image: url("../../public/icons/mail.svg");
+  background-repeat: no-repeat;
+  background-position: 2%;
+}
+
+.password {
+  position: relative;
+  background-image: url("../../public/icons/lock.svg");
+  background-repeat: no-repeat;
+  background-position: 2%;
+}
+
+.user {
+  position: relative;
+  background-image: url("../../public/icons/user.svg");
+  background-repeat: no-repeat;
+  background-position: 2%;
+}
+
+.error-message {
+  color: red;
+  font-size: 1.25rem;
+  margin: 0.25rem;
+  margin-bottom: 0;
+}

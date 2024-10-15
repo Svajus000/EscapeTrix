@@ -1,0 +1,56 @@
+.leaderboard__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.leaderboard__container--marginTop {
+  margin-top: 14rem;
+}
+
+.leaderboard {
+  height: 40rem;
+  width: 25rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 2rem;
+}
+
+.leaderboard:first-child {
+  margin-left: 12rem;
+}
+
+.leaderboard:last-child {
+  margin-right: 12rem;
+}
+
+.leaderboard__scores {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  height: 4rem;
+  margin: 2rem;
+  align-items: center;
+  margin: 2.5rem 3.25rem 2rem 2rem;
+  justify-content: space-between;
+}
+
+.userImage {
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-image: url("../../public/userProfileImages/5907777.png");
+}
+
+.userTime__text {
+  width: 4rem;
+}
+
+.scoresList {
+  display: flex;
+  flex-direction: row;
+  height: 4rem;
+  width: 100%;
+  align-items: center;
+  margin: 1rem;
+  justify-content: space-between;
+}

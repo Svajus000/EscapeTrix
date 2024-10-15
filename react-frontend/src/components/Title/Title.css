@@ -1,0 +1,21 @@
+.title {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  margin: 1.5rem 3.25rem 2rem 2rem;
+  justify-content: space-between;
+}
+
+.title-line {
+  width: 80%;
+  color: white;
+  margin-left: 2rem;
+}
+
+.title-text {
+  font-size: 1.5rem;
+}
+
+.tit {
+  margin-top: 1rem;
+}
